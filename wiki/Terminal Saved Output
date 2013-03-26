@@ -1,0 +1,399 @@
+Last login: Mon Mar 25 22:14:21 on ttys001
+cd /Users/maxwellfoxman/Scrapy/wiki; clear; pwd
+Maxwells-MacBook-Pro:~ maxwellfoxman$ cd /Users/maxwellfoxman/Scrapy/wiki; clear; pwd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/Users/maxwellfoxman/Scrapy/wiki
+Maxwells-MacBook-Pro:wiki maxwellfoxman$ scrapy crawl wiki -o items.csv -t csv
+2013-03-25 22:15:50-0400 [scrapy] INFO: Scrapy 0.16.4 started (bot: wiki)
+2013-03-25 22:15:50-0400 [scrapy] DEBUG: Enabled extensions: FeedExporter, LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2013-03-25 22:15:50-0400 [scrapy] DEBUG: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, RedirectMiddleware, CookiesMiddleware, HttpCompressionMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2013-03-25 22:15:50-0400 [scrapy] DEBUG: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2013-03-25 22:15:50-0400 [scrapy] DEBUG: Enabled item pipelines: 
+2013-03-25 22:15:50-0400 [wiki] INFO: Spider opened
+2013-03-25 22:15:50-0400 [wiki] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2013-03-25 22:15:50-0400 [scrapy] DEBUG: Telnet console listening on 0.0.0.0:6023
+2013-03-25 22:15:50-0400 [scrapy] DEBUG: Web service listening on 0.0.0.0:6080
+2013-03-25 22:15:50-0400 [wiki] DEBUG: Crawled (200) <GET http://en.wikipedia.org/wiki/Archive> (referer: None)
+[u'primary source', u'archivists'] [u'/wiki/Primary_source', u'/wiki/Archivist']
+[] []
+[u'archivist', u'archival science'] [u'/wiki/Archivist', u'/wiki/Archival_science']
+[] []
+[u'Latin', u'romanized', u'Greek'] [u'/wiki/Latin', u'/wiki/Romanization', u'/wiki/Greek_language']
+[u'Archon'] [u'/wiki/Archon']
+[u'Ebla', u'Mari', u'Amarna', u'Hattusas', u'Ugarit', u'Pylos'] [u'/wiki/Ebla', u'/wiki/Mari,_Syria', u'/wiki/Amarna', u'/wiki/Hattusas', u'/wiki/Ugarit', u'/wiki/Pylos']
+[u'papyrus'] [u'/wiki/Papyrus']
+[u'French National Archives', u'French Revolution'] [u'/wiki/French_National_Archives', u'/wiki/French_Revolution']
+[u'genealogists', u'demographers'] [u'/wiki/Genealogist', u'/wiki/Demographer']
+[u'archivist', u'thesis', u'alumni', u'American Library Association'] [u'/wiki/Archivist', u'/wiki/Thesis', u'/wiki/Alumni', u'/wiki/American_Library_Association']
+[u'Coca-Cola', u'World of Coca-Cola', u'Procter and Gamble', u'Motorola', u'Levi Strauss & Co.', u'records management', u'integrity'] [u'/wiki/Coca-Cola', u'/wiki/World_of_Coca-Cola', u'/wiki/Procter_and_Gamble', u'/wiki/Motorola', u'/wiki/Levi_Strauss_%26_Co.', u'/wiki/Records_management', u'/wiki/Integrity']
+[u'reporters', u'genealogists', u'historians'] [u'/wiki/Reporters', u'/wiki/Genealogists', u'/wiki/Historians']
+[u'National Archives and Records Administration', u'District of Columbia', u'College Park, Maryland', u"bachelor's degree"] [u'/wiki/National_Archives_and_Records_Administration', u'/wiki/District_of_Columbia', u'/wiki/College_Park,_Maryland', u'/wiki/Bachelor%27s_degree']
+[u'National Archives', u'Wales', u'National Monuments Record', u'English Heritage', u'National Archives of Scotland', u'Edinburgh', u'Public Record Office of Northern Ireland', u'Belfast'] [u'/wiki/The_National_Archives_(United_Kingdom)', u'/wiki/Wales', u'/wiki/National_Monuments_Record_(England)', u'/wiki/English_Heritage', u'/wiki/National_Archives_of_Scotland', u'/wiki/Edinburgh', u'/wiki/Public_Record_Office_of_Northern_Ireland', u'/wiki/Belfast']
+[u'county record offices', u'"Access to Archives"'] [u'/wiki/County_record_office', u'/wiki/The_National_Archives_(United_Kingdom)#.22Access_to_Archives.22']
+[u'Ministry of Culture', u'National Archives'] [u'/wiki/Minister_of_Culture_(France)', u'/wiki/Archives_nationales_(France)']
+[u'India', u'National Archives'] [u'/wiki/India', u'/wiki/National_Archives_of_India']
+[u'Taiwan', u'[1]', u'Taipei'] [u'/wiki/Taiwan', u'http://www.archives.gov.tw/English', u'/wiki/Taipei']
+[] []
+[u'Vatican Secret Archive', u'Archdioceses', u'dioceses', u'Anglican', u'monastery', u'Monte Cassino', u'Saint Gall', u'Fulda'] [u'/wiki/Vatican_Secret_Archive', u'/wiki/Archdiocese', u'/wiki/Diocese', u'/wiki/Anglicanism', u'/wiki/Monastery', u'/wiki/Monte_Cassino', u'/wiki/Abbey_of_Saint_Gall', u'/wiki/Fulda_monastery']
+[] []
+[u'historical societies', u'foundations', u'grant'] [u'/wiki/List_of_Historical_Societies', u'/wiki/Foundation_(charity)', u'/wiki/Grant_(money)']
+[u'World Wide Web', u'preserved', u'archive site', u'web crawlers'] [u'/wiki/World_Wide_Web', u'/wiki/Digital_preservation', u'/wiki/Archive_site', u'/wiki/Web_crawler']
+[u'CPAN'] [u'/wiki/CPAN']
+[u'Native American', u'provenance', u'archival science'] [u'/wiki/Indigenous_peoples_of_the_Americas', u'/wiki/Provenance', u'/wiki/Archival_science']
+[u'[2]'] [u'http://publicsecret.net']
+[] []
+[u'International Council on Archives', u'Describing Archives: A Content Standard', u'Canadian Council of Archives: Rules for Archival Description'] [u'/wiki/International_Council_on_Archives', u'/wiki/Describing_Archives:_A_Content_Standard', u'http://www.cdncouncilarchives.ca/archdesrules.html']
+[u'ISO'] [u'/wiki/International_Organization_for_Standardization']
+2013-03-25 22:15:50-0400 [wiki] INFO: Closing spider (finished)
+2013-03-25 22:15:50-0400 [wiki] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 234,
+	 'downloader/request_count': 1,
+	 'downloader/request_method_count/GET': 1,
+	 'downloader/response_bytes': 24774,
+	 'downloader/response_count': 1,
+	 'downloader/response_status_count/200': 1,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2013, 3, 26, 2, 15, 50, 484258),
+	 'log_count/DEBUG': 7,
+	 'log_count/INFO': 4,
+	 'response_received_count': 1,
+	 'scheduler/dequeued': 1,
+	 'scheduler/dequeued/memory': 1,
+	 'scheduler/enqueued': 1,
+	 'scheduler/enqueued/memory': 1,
+	 'start_time': datetime.datetime(2013, 3, 26, 2, 15, 50, 380601)}
+2013-03-25 22:15:50-0400 [wiki] INFO: Spider closed (finished)
+Maxwells-MacBook-Pro:wiki maxwellfoxman$ scrapy crawl wiki
+2013-03-25 22:16:18-0400 [scrapy] INFO: Scrapy 0.16.4 started (bot: wiki)
+2013-03-25 22:16:18-0400 [scrapy] DEBUG: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2013-03-25 22:16:18-0400 [scrapy] DEBUG: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, RedirectMiddleware, CookiesMiddleware, HttpCompressionMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2013-03-25 22:16:18-0400 [scrapy] DEBUG: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2013-03-25 22:16:18-0400 [scrapy] DEBUG: Enabled item pipelines: 
+2013-03-25 22:16:18-0400 [wiki] INFO: Spider opened
+2013-03-25 22:16:18-0400 [wiki] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2013-03-25 22:16:18-0400 [scrapy] DEBUG: Telnet console listening on 0.0.0.0:6023
+2013-03-25 22:16:18-0400 [scrapy] DEBUG: Web service listening on 0.0.0.0:6080
+2013-03-25 22:16:18-0400 [wiki] DEBUG: Crawled (200) <GET http://en.wikipedia.org/wiki/Archive> (referer: None)
+[u'primary source', u'archivists'] [u'/wiki/Primary_source', u'/wiki/Archivist']
+[] []
+[u'archivist', u'archival science'] [u'/wiki/Archivist', u'/wiki/Archival_science']
+[] []
+[u'Latin', u'romanized', u'Greek'] [u'/wiki/Latin', u'/wiki/Romanization', u'/wiki/Greek_language']
+[u'Archon'] [u'/wiki/Archon']
+[u'Ebla', u'Mari', u'Amarna', u'Hattusas', u'Ugarit', u'Pylos'] [u'/wiki/Ebla', u'/wiki/Mari,_Syria', u'/wiki/Amarna', u'/wiki/Hattusas', u'/wiki/Ugarit', u'/wiki/Pylos']
+[u'papyrus'] [u'/wiki/Papyrus']
+[u'French National Archives', u'French Revolution'] [u'/wiki/French_National_Archives', u'/wiki/French_Revolution']
+[u'genealogists', u'demographers'] [u'/wiki/Genealogist', u'/wiki/Demographer']
+[u'archivist', u'thesis', u'alumni', u'American Library Association'] [u'/wiki/Archivist', u'/wiki/Thesis', u'/wiki/Alumni', u'/wiki/American_Library_Association']
+[u'Coca-Cola', u'World of Coca-Cola', u'Procter and Gamble', u'Motorola', u'Levi Strauss & Co.', u'records management', u'integrity'] [u'/wiki/Coca-Cola', u'/wiki/World_of_Coca-Cola', u'/wiki/Procter_and_Gamble', u'/wiki/Motorola', u'/wiki/Levi_Strauss_%26_Co.', u'/wiki/Records_management', u'/wiki/Integrity']
+[u'reporters', u'genealogists', u'historians'] [u'/wiki/Reporters', u'/wiki/Genealogists', u'/wiki/Historians']
+[u'National Archives and Records Administration', u'District of Columbia', u'College Park, Maryland', u"bachelor's degree"] [u'/wiki/National_Archives_and_Records_Administration', u'/wiki/District_of_Columbia', u'/wiki/College_Park,_Maryland', u'/wiki/Bachelor%27s_degree']
+[u'National Archives', u'Wales', u'National Monuments Record', u'English Heritage', u'National Archives of Scotland', u'Edinburgh', u'Public Record Office of Northern Ireland', u'Belfast'] [u'/wiki/The_National_Archives_(United_Kingdom)', u'/wiki/Wales', u'/wiki/National_Monuments_Record_(England)', u'/wiki/English_Heritage', u'/wiki/National_Archives_of_Scotland', u'/wiki/Edinburgh', u'/wiki/Public_Record_Office_of_Northern_Ireland', u'/wiki/Belfast']
+[u'county record offices', u'"Access to Archives"'] [u'/wiki/County_record_office', u'/wiki/The_National_Archives_(United_Kingdom)#.22Access_to_Archives.22']
+[u'Ministry of Culture', u'National Archives'] [u'/wiki/Minister_of_Culture_(France)', u'/wiki/Archives_nationales_(France)']
+[u'India', u'National Archives'] [u'/wiki/India', u'/wiki/National_Archives_of_India']
+[u'Taiwan', u'[1]', u'Taipei'] [u'/wiki/Taiwan', u'http://www.archives.gov.tw/English', u'/wiki/Taipei']
+[] []
+[u'Vatican Secret Archive', u'Archdioceses', u'dioceses', u'Anglican', u'monastery', u'Monte Cassino', u'Saint Gall', u'Fulda'] [u'/wiki/Vatican_Secret_Archive', u'/wiki/Archdiocese', u'/wiki/Diocese', u'/wiki/Anglicanism', u'/wiki/Monastery', u'/wiki/Monte_Cassino', u'/wiki/Abbey_of_Saint_Gall', u'/wiki/Fulda_monastery']
+[] []
+[u'historical societies', u'foundations', u'grant'] [u'/wiki/List_of_Historical_Societies', u'/wiki/Foundation_(charity)', u'/wiki/Grant_(money)']
+[u'World Wide Web', u'preserved', u'archive site', u'web crawlers'] [u'/wiki/World_Wide_Web', u'/wiki/Digital_preservation', u'/wiki/Archive_site', u'/wiki/Web_crawler']
+[u'CPAN'] [u'/wiki/CPAN']
+[u'Native American', u'provenance', u'archival science'] [u'/wiki/Indigenous_peoples_of_the_Americas', u'/wiki/Provenance', u'/wiki/Archival_science']
+[u'[2]'] [u'http://publicsecret.net']
+[] []
+[u'International Council on Archives', u'Describing Archives: A Content Standard', u'Canadian Council of Archives: Rules for Archival Description'] [u'/wiki/International_Council_on_Archives', u'/wiki/Describing_Archives:_A_Content_Standard', u'http://www.cdncouncilarchives.ca/archdesrules.html']
+[u'ISO'] [u'/wiki/International_Organization_for_Standardization']
+2013-03-25 22:16:18-0400 [wiki] INFO: Closing spider (finished)
+2013-03-25 22:16:18-0400 [wiki] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 234,
+	 'downloader/request_count': 1,
+	 'downloader/request_method_count/GET': 1,
+	 'downloader/response_bytes': 24774,
+	 'downloader/response_count': 1,
+	 'downloader/response_status_count/200': 1,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2013, 3, 26, 2, 16, 18, 882300),
+	 'log_count/DEBUG': 7,
+	 'log_count/INFO': 4,
+	 'response_received_count': 1,
+	 'scheduler/dequeued': 1,
+	 'scheduler/dequeued/memory': 1,
+	 'scheduler/enqueued': 1,
+	 'scheduler/enqueued/memory': 1,
+	 'start_time': datetime.datetime(2013, 3, 26, 2, 16, 18, 763378)}
+2013-03-25 22:16:18-0400 [wiki] INFO: Spider closed (finished)
+Maxwells-MacBook-Pro:wiki maxwellfoxman$ scrapy crawl wiki
+2013-03-25 22:19:50-0400 [scrapy] INFO: Scrapy 0.16.4 started (bot: wiki)
+2013-03-25 22:19:50-0400 [scrapy] DEBUG: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2013-03-25 22:19:50-0400 [scrapy] DEBUG: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, RedirectMiddleware, CookiesMiddleware, HttpCompressionMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2013-03-25 22:19:50-0400 [scrapy] DEBUG: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2013-03-25 22:19:50-0400 [scrapy] DEBUG: Enabled item pipelines: 
+2013-03-25 22:19:50-0400 [wiki] INFO: Spider opened
+2013-03-25 22:19:50-0400 [wiki] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2013-03-25 22:19:50-0400 [scrapy] DEBUG: Telnet console listening on 0.0.0.0:6023
+2013-03-25 22:19:50-0400 [scrapy] DEBUG: Web service listening on 0.0.0.0:6080
+2013-03-25 22:19:50-0400 [wiki] DEBUG: Crawled (200) <GET http://en.wikipedia.org/wiki/Archive> (referer: None)
+2013-03-25 22:19:50-0400 [wiki] DEBUG: Scraped from <200 http://en.wikipedia.org/wiki/Archive>
+	{'link': [u'/wiki/Primary_source', u'/wiki/Archivist'],
+	 'title': [u'primary source', u'archivists']}
+2013-03-25 22:19:50-0400 [wiki] INFO: Closing spider (finished)
+2013-03-25 22:19:50-0400 [wiki] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 234,
+	 'downloader/request_count': 1,
+	 'downloader/request_method_count/GET': 1,
+	 'downloader/response_bytes': 24774,
+	 'downloader/response_count': 1,
+	 'downloader/response_status_count/200': 1,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2013, 3, 26, 2, 19, 50, 911233),
+	 'item_scraped_count': 1,
+	 'log_count/DEBUG': 8,
+	 'log_count/INFO': 4,
+	 'response_received_count': 1,
+	 'scheduler/dequeued': 1,
+	 'scheduler/dequeued/memory': 1,
+	 'scheduler/enqueued': 1,
+	 'scheduler/enqueued/memory': 1,
+	 'start_time': datetime.datetime(2013, 3, 26, 2, 19, 50, 756436)}
+2013-03-25 22:19:50-0400 [wiki] INFO: Spider closed (finished)
+Maxwells-MacBook-Pro:wiki maxwellfoxman$ scrapy crawl wiki -o items.csv -t csv
+2013-03-25 22:20:15-0400 [scrapy] INFO: Scrapy 0.16.4 started (bot: wiki)
+2013-03-25 22:20:15-0400 [scrapy] DEBUG: Enabled extensions: FeedExporter, LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2013-03-25 22:20:16-0400 [scrapy] DEBUG: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, RedirectMiddleware, CookiesMiddleware, HttpCompressionMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2013-03-25 22:20:16-0400 [scrapy] DEBUG: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2013-03-25 22:20:16-0400 [scrapy] DEBUG: Enabled item pipelines: 
+2013-03-25 22:20:16-0400 [wiki] INFO: Spider opened
+2013-03-25 22:20:16-0400 [wiki] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2013-03-25 22:20:16-0400 [scrapy] DEBUG: Telnet console listening on 0.0.0.0:6023
+2013-03-25 22:20:16-0400 [scrapy] DEBUG: Web service listening on 0.0.0.0:6080
+2013-03-25 22:20:16-0400 [wiki] DEBUG: Crawled (200) <GET http://en.wikipedia.org/wiki/Archive> (referer: None)
+2013-03-25 22:20:16-0400 [wiki] DEBUG: Scraped from <200 http://en.wikipedia.org/wiki/Archive>
+	{'link': [u'/wiki/Primary_source', u'/wiki/Archivist'],
+	 'title': [u'primary source', u'archivists']}
+2013-03-25 22:20:16-0400 [wiki] INFO: Closing spider (finished)
+2013-03-25 22:20:16-0400 [wiki] INFO: Stored csv feed (1 items) in: items.csv
+2013-03-25 22:20:16-0400 [wiki] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 234,
+	 'downloader/request_count': 1,
+	 'downloader/request_method_count/GET': 1,
+	 'downloader/response_bytes': 24774,
+	 'downloader/response_count': 1,
+	 'downloader/response_status_count/200': 1,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2013, 3, 26, 2, 20, 16, 168503),
+	 'item_scraped_count': 1,
+	 'log_count/DEBUG': 8,
+	 'log_count/INFO': 5,
+	 'response_received_count': 1,
+	 'scheduler/dequeued': 1,
+	 'scheduler/dequeued/memory': 1,
+	 'scheduler/enqueued': 1,
+	 'scheduler/enqueued/memory': 1,
+	 'start_time': datetime.datetime(2013, 3, 26, 2, 20, 16, 17629)}
+2013-03-25 22:20:16-0400 [wiki] INFO: Spider closed (finished)
+Maxwells-MacBook-Pro:wiki maxwellfoxman$ scrapy crawl wiki -o items.csv -t csv
+2013-03-25 22:22:27-0400 [scrapy] INFO: Scrapy 0.16.4 started (bot: wiki)
+2013-03-25 22:22:27-0400 [scrapy] DEBUG: Enabled extensions: FeedExporter, LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2013-03-25 22:22:27-0400 [scrapy] DEBUG: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, RedirectMiddleware, CookiesMiddleware, HttpCompressionMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2013-03-25 22:22:27-0400 [scrapy] DEBUG: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2013-03-25 22:22:27-0400 [scrapy] DEBUG: Enabled item pipelines: 
+2013-03-25 22:22:27-0400 [wiki] INFO: Spider opened
+2013-03-25 22:22:27-0400 [wiki] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2013-03-25 22:22:27-0400 [scrapy] DEBUG: Telnet console listening on 0.0.0.0:6023
+2013-03-25 22:22:27-0400 [scrapy] DEBUG: Web service listening on 0.0.0.0:6080
+2013-03-25 22:22:28-0400 [wiki] DEBUG: Crawled (200) <GET http://en.wikipedia.org/wiki/Archive> (referer: None)
+2013-03-25 22:22:28-0400 [wiki] DEBUG: Scraped from <200 http://en.wikipedia.org/wiki/Archive>
+	{'link': [u'/wiki/Primary_source', u'/wiki/Archivist'],
+	 'title': [u'primary source', u'archivists']}
+2013-03-25 22:22:28-0400 [wiki] DEBUG: Scraped from <200 http://en.wikipedia.org/wiki/Archive>
+	{'link': [], 'title': []}
+2013-03-25 22:22:28-0400 [wiki] DEBUG: Scraped from <200 http://en.wikipedia.org/wiki/Archive>
+	{'link': [u'/wiki/Archivist', u'/wiki/Archival_science'],
+	 'title': [u'archivist', u'archival science']}
+2013-03-25 22:22:28-0400 [wiki] DEBUG: Scraped from <200 http://en.wikipedia.org/wiki/Archive>
+	{'link': [], 'title': []}
+2013-03-25 22:22:28-0400 [wiki] DEBUG: Scraped from <200 http://en.wikipedia.org/wiki/Archive>
+	{'link': [u'/wiki/Latin', u'/wiki/Romanization', u'/wiki/Greek_language'],
+	 'title': [u'Latin', u'romanized', u'Greek']}
+2013-03-25 22:22:28-0400 [wiki] DEBUG: Scraped from <200 http://en.wikipedia.org/wiki/Archive>
+	{'link': [u'/wiki/Archon'], 'title': [u'Archon']}
+2013-03-25 22:22:28-0400 [wiki] DEBUG: Scraped from <200 http://en.wikipedia.org/wiki/Archive>
+	{'link': [u'/wiki/Ebla',
+	          u'/wiki/Mari,_Syria',
+	          u'/wiki/Amarna',
+	          u'/wiki/Hattusas',
+	          u'/wiki/Ugarit',
+	          u'/wiki/Pylos'],
+	 'title': [u'Ebla', u'Mari', u'Amarna', u'Hattusas', u'Ugarit', u'Pylos']}
+2013-03-25 22:22:28-0400 [wiki] DEBUG: Scraped from <200 http://en.wikipedia.org/wiki/Archive>
+	{'link': [u'/wiki/Papyrus'], 'title': [u'papyrus']}
+2013-03-25 22:22:28-0400 [wiki] DEBUG: Scraped from <200 http://en.wikipedia.org/wiki/Archive>
+	{'link': [u'/wiki/French_National_Archives', u'/wiki/French_Revolution'],
+	 'title': [u'French National Archives', u'French Revolution']}
+2013-03-25 22:22:28-0400 [wiki] DEBUG: Scraped from <200 http://en.wikipedia.org/wiki/Archive>
+	{'link': [u'/wiki/Genealogist', u'/wiki/Demographer'],
+	 'title': [u'genealogists', u'demographers']}
+2013-03-25 22:22:28-0400 [wiki] DEBUG: Scraped from <200 http://en.wikipedia.org/wiki/Archive>
+	{'link': [u'/wiki/Archivist',
+	          u'/wiki/Thesis',
+	          u'/wiki/Alumni',
+	          u'/wiki/American_Library_Association'],
+	 'title': [u'archivist',
+	           u'thesis',
+	           u'alumni',
+	           u'American Library Association']}
+2013-03-25 22:22:28-0400 [wiki] DEBUG: Scraped from <200 http://en.wikipedia.org/wiki/Archive>
+	{'link': [u'/wiki/Coca-Cola',
+	          u'/wiki/World_of_Coca-Cola',
+	          u'/wiki/Procter_and_Gamble',
+	          u'/wiki/Motorola',
+	          u'/wiki/Levi_Strauss_%26_Co.',
+	          u'/wiki/Records_management',
+	          u'/wiki/Integrity'],
+	 'title': [u'Coca-Cola',
+	           u'World of Coca-Cola',
+	           u'Procter and Gamble',
+	           u'Motorola',
+	           u'Levi Strauss & Co.',
+	           u'records management',
+	           u'integrity']}
+2013-03-25 22:22:28-0400 [wiki] DEBUG: Scraped from <200 http://en.wikipedia.org/wiki/Archive>
+	{'link': [u'/wiki/Reporters', u'/wiki/Genealogists', u'/wiki/Historians'],
+	 'title': [u'reporters', u'genealogists', u'historians']}
+2013-03-25 22:22:28-0400 [wiki] DEBUG: Scraped from <200 http://en.wikipedia.org/wiki/Archive>
+	{'link': [u'/wiki/National_Archives_and_Records_Administration',
+	          u'/wiki/District_of_Columbia',
+	          u'/wiki/College_Park,_Maryland',
+	          u'/wiki/Bachelor%27s_degree'],
+	 'title': [u'National Archives and Records Administration',
+	           u'District of Columbia',
+	           u'College Park, Maryland',
+	           u"bachelor's degree"]}
+2013-03-25 22:22:28-0400 [wiki] DEBUG: Scraped from <200 http://en.wikipedia.org/wiki/Archive>
+	{'link': [u'/wiki/The_National_Archives_(United_Kingdom)',
+	          u'/wiki/Wales',
+	          u'/wiki/National_Monuments_Record_(England)',
+	          u'/wiki/English_Heritage',
+	          u'/wiki/National_Archives_of_Scotland',
+	          u'/wiki/Edinburgh',
+	          u'/wiki/Public_Record_Office_of_Northern_Ireland',
+	          u'/wiki/Belfast'],
+	 'title': [u'National Archives',
+	           u'Wales',
+	           u'National Monuments Record',
+	           u'English Heritage',
+	           u'National Archives of Scotland',
+	           u'Edinburgh',
+	           u'Public Record Office of Northern Ireland',
+	           u'Belfast']}
+2013-03-25 22:22:28-0400 [wiki] DEBUG: Scraped from <200 http://en.wikipedia.org/wiki/Archive>
+	{'link': [u'/wiki/County_record_office',
+	          u'/wiki/The_National_Archives_(United_Kingdom)#.22Access_to_Archives.22'],
+	 'title': [u'county record offices', u'"Access to Archives"']}
+2013-03-25 22:22:28-0400 [wiki] DEBUG: Scraped from <200 http://en.wikipedia.org/wiki/Archive>
+	{'link': [u'/wiki/Minister_of_Culture_(France)',
+	          u'/wiki/Archives_nationales_(France)'],
+	 'title': [u'Ministry of Culture', u'National Archives']}
+2013-03-25 22:22:28-0400 [wiki] DEBUG: Scraped from <200 http://en.wikipedia.org/wiki/Archive>
+	{'link': [u'/wiki/India', u'/wiki/National_Archives_of_India'],
+	 'title': [u'India', u'National Archives']}
+2013-03-25 22:22:28-0400 [wiki] DEBUG: Scraped from <200 http://en.wikipedia.org/wiki/Archive>
+	{'link': [u'/wiki/Taiwan',
+	          u'http://www.archives.gov.tw/English',
+	          u'/wiki/Taipei'],
+	 'title': [u'Taiwan', u'[1]', u'Taipei']}
+2013-03-25 22:22:28-0400 [wiki] DEBUG: Scraped from <200 http://en.wikipedia.org/wiki/Archive>
+	{'link': [], 'title': []}
+2013-03-25 22:22:28-0400 [wiki] DEBUG: Scraped from <200 http://en.wikipedia.org/wiki/Archive>
+	{'link': [u'/wiki/Vatican_Secret_Archive',
+	          u'/wiki/Archdiocese',
+	          u'/wiki/Diocese',
+	          u'/wiki/Anglicanism',
+	          u'/wiki/Monastery',
+	          u'/wiki/Monte_Cassino',
+	          u'/wiki/Abbey_of_Saint_Gall',
+	          u'/wiki/Fulda_monastery'],
+	 'title': [u'Vatican Secret Archive',
+	           u'Archdioceses',
+	           u'dioceses',
+	           u'Anglican',
+	           u'monastery',
+	           u'Monte Cassino',
+	           u'Saint Gall',
+	           u'Fulda']}
+2013-03-25 22:22:28-0400 [wiki] DEBUG: Scraped from <200 http://en.wikipedia.org/wiki/Archive>
+	{'link': [], 'title': []}
+2013-03-25 22:22:28-0400 [wiki] DEBUG: Scraped from <200 http://en.wikipedia.org/wiki/Archive>
+	{'link': [u'/wiki/List_of_Historical_Societies',
+	          u'/wiki/Foundation_(charity)',
+	          u'/wiki/Grant_(money)'],
+	 'title': [u'historical societies', u'foundations', u'grant']}
+2013-03-25 22:22:28-0400 [wiki] DEBUG: Scraped from <200 http://en.wikipedia.org/wiki/Archive>
+	{'link': [u'/wiki/World_Wide_Web',
+	          u'/wiki/Digital_preservation',
+	          u'/wiki/Archive_site',
+	          u'/wiki/Web_crawler'],
+	 'title': [u'World Wide Web', u'preserved', u'archive site', u'web crawlers']}
+2013-03-25 22:22:28-0400 [wiki] DEBUG: Scraped from <200 http://en.wikipedia.org/wiki/Archive>
+	{'link': [u'/wiki/CPAN'], 'title': [u'CPAN']}
+2013-03-25 22:22:28-0400 [wiki] DEBUG: Scraped from <200 http://en.wikipedia.org/wiki/Archive>
+	{'link': [u'/wiki/Indigenous_peoples_of_the_Americas',
+	          u'/wiki/Provenance',
+	          u'/wiki/Archival_science'],
+	 'title': [u'Native American', u'provenance', u'archival science']}
+2013-03-25 22:22:28-0400 [wiki] DEBUG: Scraped from <200 http://en.wikipedia.org/wiki/Archive>
+	{'link': [u'http://publicsecret.net'], 'title': [u'[2]']}
+2013-03-25 22:22:28-0400 [wiki] DEBUG: Scraped from <200 http://en.wikipedia.org/wiki/Archive>
+	{'link': [], 'title': []}
+2013-03-25 22:22:28-0400 [wiki] DEBUG: Scraped from <200 http://en.wikipedia.org/wiki/Archive>
+	{'link': [u'/wiki/International_Council_on_Archives',
+	          u'/wiki/Describing_Archives:_A_Content_Standard',
+	          u'http://www.cdncouncilarchives.ca/archdesrules.html'],
+	 'title': [u'International Council on Archives',
+	           u'Describing Archives: A Content Standard',
+	           u'Canadian Council of Archives: Rules for Archival Description']}
+2013-03-25 22:22:28-0400 [wiki] DEBUG: Scraped from <200 http://en.wikipedia.org/wiki/Archive>
+	{'link': [u'/wiki/International_Organization_for_Standardization'],
+	 'title': [u'ISO']}
+2013-03-25 22:22:28-0400 [wiki] INFO: Closing spider (finished)
+2013-03-25 22:22:28-0400 [wiki] INFO: Stored csv feed (30 items) in: items.csv
+2013-03-25 22:22:28-0400 [wiki] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 234,
+	 'downloader/request_count': 1,
+	 'downloader/request_method_count/GET': 1,
+	 'downloader/response_bytes': 24774,
+	 'downloader/response_count': 1,
+	 'downloader/response_status_count/200': 1,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2013, 3, 26, 2, 22, 28, 430495),
+	 'item_scraped_count': 30,
+	 'log_count/DEBUG': 37,
+	 'log_count/INFO': 5,
+	 'response_received_count': 1,
+	 'scheduler/dequeued': 1,
+	 'scheduler/dequeued/memory': 1,
+	 'scheduler/enqueued': 1,
+	 'scheduler/enqueued/memory': 1,
+	 'start_time': datetime.datetime(2013, 3, 26, 2, 22, 27, 965218)}
+2013-03-25 22:22:28-0400 [wiki] INFO: Spider closed (finished)
+Maxwells-MacBook-Pro:wiki maxwellfoxman$ 

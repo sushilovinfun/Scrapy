@@ -1,0 +1,228 @@
+Last login: Tue Mar 26 13:50:31 on ttys000
+Maxwells-MacBook-Pro:~ maxwellfoxman$ cd /Users/maxwellfoxman/Scrapy/mf\ copy; clear; pwd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/Users/maxwellfoxman/Scrapy/mf copy
+Maxwells-MacBook-Pro:mf copy maxwellfoxman$ scrapy crawl mf
+2013-03-26 13:56:27-0400 [scrapy] INFO: Scrapy 0.16.4 started (bot: mf)
+2013-03-26 13:56:27-0400 [scrapy] DEBUG: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2013-03-26 13:56:27-0400 [scrapy] DEBUG: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, RedirectMiddleware, CookiesMiddleware, HttpCompressionMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2013-03-26 13:56:27-0400 [scrapy] DEBUG: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2013-03-26 13:56:27-0400 [scrapy] DEBUG: Enabled item pipelines: 
+2013-03-26 13:56:27-0400 [mf] INFO: Spider opened
+2013-03-26 13:56:27-0400 [mf] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2013-03-26 13:56:27-0400 [scrapy] DEBUG: Telnet console listening on 0.0.0.0:6023
+2013-03-26 13:56:27-0400 [scrapy] DEBUG: Web service listening on 0.0.0.0:6080
+2013-03-26 13:56:28-0400 [mf] DEBUG: Crawled (200) <GET http://maxwellfoxman.wordpress.com> (referer: None)
+2013-03-26 13:56:28-0400 [mf] INFO: Closing spider (finished)
+2013-03-26 13:56:28-0400 [mf] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 233,
+	 'downloader/request_count': 1,
+	 'downloader/request_method_count/GET': 1,
+	 'downloader/response_bytes': 27314,
+	 'downloader/response_count': 1,
+	 'downloader/response_status_count/200': 1,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2013, 3, 26, 17, 56, 28, 853782),
+	 'log_count/DEBUG': 7,
+	 'log_count/INFO': 4,
+	 'response_received_count': 1,
+	 'scheduler/dequeued': 1,
+	 'scheduler/dequeued/memory': 1,
+	 'scheduler/enqueued': 1,
+	 'scheduler/enqueued/memory': 1,
+	 'start_time': datetime.datetime(2013, 3, 26, 17, 56, 27, 947357)}
+2013-03-26 13:56:28-0400 [mf] INFO: Spider closed (finished)
+Maxwells-MacBook-Pro:mf copy maxwellfoxman$ scrapy crawl mf
+2013-03-26 13:56:42-0400 [scrapy] INFO: Scrapy 0.16.4 started (bot: mf)
+2013-03-26 13:56:43-0400 [scrapy] DEBUG: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2013-03-26 13:56:43-0400 [scrapy] DEBUG: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, RedirectMiddleware, CookiesMiddleware, HttpCompressionMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2013-03-26 13:56:43-0400 [scrapy] DEBUG: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2013-03-26 13:56:43-0400 [scrapy] DEBUG: Enabled item pipelines: 
+2013-03-26 13:56:43-0400 [mf] INFO: Spider opened
+2013-03-26 13:56:43-0400 [mf] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2013-03-26 13:56:43-0400 [scrapy] DEBUG: Telnet console listening on 0.0.0.0:6023
+2013-03-26 13:56:43-0400 [scrapy] DEBUG: Web service listening on 0.0.0.0:6080
+2013-03-26 13:56:43-0400 [mf] DEBUG: Crawled (200) <GET http://maxwellfoxman.wordpress.com> (referer: None)
+2013-03-26 13:56:43-0400 [mf] INFO: Closing spider (finished)
+2013-03-26 13:56:43-0400 [mf] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 233,
+	 'downloader/request_count': 1,
+	 'downloader/request_method_count/GET': 1,
+	 'downloader/response_bytes': 27317,
+	 'downloader/response_count': 1,
+	 'downloader/response_status_count/200': 1,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2013, 3, 26, 17, 56, 43, 800574),
+	 'log_count/DEBUG': 7,
+	 'log_count/INFO': 4,
+	 'response_received_count': 1,
+	 'scheduler/dequeued': 1,
+	 'scheduler/dequeued/memory': 1,
+	 'scheduler/enqueued': 1,
+	 'scheduler/enqueued/memory': 1,
+	 'start_time': datetime.datetime(2013, 3, 26, 17, 56, 43, 169133)}
+2013-03-26 13:56:43-0400 [mf] INFO: Spider closed (finished)
+Maxwells-MacBook-Pro:mf copy maxwellfoxman$ scrapy crawl mf
+2013-03-26 13:57:23-0400 [scrapy] INFO: Scrapy 0.16.4 started (bot: mf)
+2013-03-26 13:57:23-0400 [scrapy] DEBUG: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2013-03-26 13:57:23-0400 [scrapy] DEBUG: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, RedirectMiddleware, CookiesMiddleware, HttpCompressionMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2013-03-26 13:57:23-0400 [scrapy] DEBUG: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2013-03-26 13:57:23-0400 [scrapy] DEBUG: Enabled item pipelines: 
+2013-03-26 13:57:23-0400 [mf] INFO: Spider opened
+2013-03-26 13:57:23-0400 [mf] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2013-03-26 13:57:23-0400 [scrapy] DEBUG: Telnet console listening on 0.0.0.0:6023
+2013-03-26 13:57:23-0400 [scrapy] DEBUG: Web service listening on 0.0.0.0:6080
+2013-03-26 13:57:24-0400 [mf] DEBUG: Crawled (200) <GET http://maxwellfoxman.wordpress.com> (referer: None)
+2013-03-26 13:57:24-0400 [mf] INFO: Closing spider (finished)
+2013-03-26 13:57:24-0400 [mf] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 233,
+	 'downloader/request_count': 1,
+	 'downloader/request_method_count/GET': 1,
+	 'downloader/response_bytes': 27314,
+	 'downloader/response_count': 1,
+	 'downloader/response_status_count/200': 1,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2013, 3, 26, 17, 57, 24, 251888),
+	 'log_count/DEBUG': 7,
+	 'log_count/INFO': 4,
+	 'response_received_count': 1,
+	 'scheduler/dequeued': 1,
+	 'scheduler/dequeued/memory': 1,
+	 'scheduler/enqueued': 1,
+	 'scheduler/enqueued/memory': 1,
+	 'start_time': datetime.datetime(2013, 3, 26, 17, 57, 23, 367124)}
+2013-03-26 13:57:24-0400 [mf] INFO: Spider closed (finished)
+Maxwells-MacBook-Pro:mf copy maxwellfoxman$ scrapy crawl mf
+2013-03-26 13:57:46-0400 [scrapy] INFO: Scrapy 0.16.4 started (bot: mf)
+2013-03-26 13:57:46-0400 [scrapy] DEBUG: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2013-03-26 13:57:46-0400 [scrapy] DEBUG: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, RedirectMiddleware, CookiesMiddleware, HttpCompressionMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2013-03-26 13:57:46-0400 [scrapy] DEBUG: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2013-03-26 13:57:46-0400 [scrapy] DEBUG: Enabled item pipelines: 
+2013-03-26 13:57:46-0400 [mf] INFO: Spider opened
+2013-03-26 13:57:46-0400 [mf] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2013-03-26 13:57:46-0400 [scrapy] DEBUG: Telnet console listening on 0.0.0.0:6023
+2013-03-26 13:57:46-0400 [scrapy] DEBUG: Web service listening on 0.0.0.0:6080
+2013-03-26 13:57:46-0400 [mf] DEBUG: Crawled (200) <GET http://maxwellfoxman.wordpress.com> (referer: None)
+2013-03-26 13:57:46-0400 [mf] INFO: Closing spider (finished)
+2013-03-26 13:57:46-0400 [mf] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 233,
+	 'downloader/request_count': 1,
+	 'downloader/request_method_count/GET': 1,
+	 'downloader/response_bytes': 27313,
+	 'downloader/response_count': 1,
+	 'downloader/response_status_count/200': 1,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2013, 3, 26, 17, 57, 46, 735093),
+	 'log_count/DEBUG': 7,
+	 'log_count/INFO': 4,
+	 'response_received_count': 1,
+	 'scheduler/dequeued': 1,
+	 'scheduler/dequeued/memory': 1,
+	 'scheduler/enqueued': 1,
+	 'scheduler/enqueued/memory': 1,
+	 'start_time': datetime.datetime(2013, 3, 26, 17, 57, 46, 305098)}
+2013-03-26 13:57:46-0400 [mf] INFO: Spider closed (finished)
+Maxwells-MacBook-Pro:mf copy maxwellfoxman$ scrapy crawl mf
+2013-03-26 13:58:14-0400 [scrapy] INFO: Scrapy 0.16.4 started (bot: mf)
+2013-03-26 13:58:15-0400 [scrapy] DEBUG: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2013-03-26 13:58:15-0400 [scrapy] DEBUG: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, RedirectMiddleware, CookiesMiddleware, HttpCompressionMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2013-03-26 13:58:15-0400 [scrapy] DEBUG: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2013-03-26 13:58:15-0400 [scrapy] DEBUG: Enabled item pipelines: 
+2013-03-26 13:58:15-0400 [mf] INFO: Spider opened
+2013-03-26 13:58:15-0400 [mf] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2013-03-26 13:58:15-0400 [scrapy] DEBUG: Telnet console listening on 0.0.0.0:6023
+2013-03-26 13:58:15-0400 [scrapy] DEBUG: Web service listening on 0.0.0.0:6080
+2013-03-26 13:58:15-0400 [mf] DEBUG: Crawled (200) <GET http://maxwellfoxman.wordpress.com> (referer: None)
+The “Techne” of Memory: Conversations on How Memory is Brought Forth
+The Sacred and the Transgressive
+Video from the Local and Mobile 2012 Presentation
+Virtual Objects
+The Soul’s Sacrifice of Beauty
+The Magic Circle of Madness and Notions of Expenditure
+Devouring Magic Pop
+Observations on Sun and Sea
+Notes: Comics, Journalism & Memory
+Spiegelman, The Cartoon: Slides
+2013-03-26 13:58:15-0400 [mf] INFO: Closing spider (finished)
+2013-03-26 13:58:15-0400 [mf] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 233,
+	 'downloader/request_count': 1,
+	 'downloader/request_method_count/GET': 1,
+	 'downloader/response_bytes': 27314,
+	 'downloader/response_count': 1,
+	 'downloader/response_status_count/200': 1,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2013, 3, 26, 17, 58, 15, 614270),
+	 'log_count/DEBUG': 7,
+	 'log_count/INFO': 4,
+	 'response_received_count': 1,
+	 'scheduler/dequeued': 1,
+	 'scheduler/dequeued/memory': 1,
+	 'scheduler/enqueued': 1,
+	 'scheduler/enqueued/memory': 1,
+	 'start_time': datetime.datetime(2013, 3, 26, 17, 58, 15, 210329)}
+2013-03-26 13:58:15-0400 [mf] INFO: Spider closed (finished)
+Maxwells-MacBook-Pro:mf copy maxwellfoxman$ clear
+
+Maxwells-MacBook-Pro:mf copy maxwellfoxman$ 
+Maxwells-MacBook-Pro:mf copy maxwellfoxman$ scrapy crawl mf
+2013-03-26 13:59:13-0400 [scrapy] INFO: Scrapy 0.16.4 started (bot: mf)
+2013-03-26 13:59:13-0400 [scrapy] DEBUG: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2013-03-26 13:59:13-0400 [scrapy] DEBUG: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, RedirectMiddleware, CookiesMiddleware, HttpCompressionMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2013-03-26 13:59:13-0400 [scrapy] DEBUG: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2013-03-26 13:59:13-0400 [scrapy] DEBUG: Enabled item pipelines: 
+2013-03-26 13:59:13-0400 [mf] INFO: Spider opened
+2013-03-26 13:59:13-0400 [mf] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2013-03-26 13:59:13-0400 [scrapy] DEBUG: Telnet console listening on 0.0.0.0:6023
+2013-03-26 13:59:13-0400 [scrapy] DEBUG: Web service listening on 0.0.0.0:6080
+2013-03-26 13:59:14-0400 [mf] DEBUG: Crawled (200) <GET http://maxwellfoxman.wordpress.com> (referer: None)
+The “Techne” of Memory: Conversations on How Memory is Brought Forth
+The Sacred and the Transgressive
+Video from the Local and Mobile 2012 Presentation
+Virtual Objects
+The Soul’s Sacrifice of Beauty
+The Magic Circle of Madness and Notions of Expenditure
+Devouring Magic Pop
+Observations on Sun and Sea
+Notes: Comics, Journalism & Memory
+Spiegelman, The Cartoon: Slides
+2013-03-26 13:59:14-0400 [mf] INFO: Closing spider (finished)
+2013-03-26 13:59:14-0400 [mf] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 233,
+	 'downloader/request_count': 1,
+	 'downloader/request_method_count/GET': 1,
+	 'downloader/response_bytes': 27470,
+	 'downloader/response_count': 1,
+	 'downloader/response_status_count/200': 1,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2013, 3, 26, 17, 59, 14, 884175),
+	 'log_count/DEBUG': 7,
+	 'log_count/INFO': 4,
+	 'response_received_count': 1,
+	 'scheduler/dequeued': 1,
+	 'scheduler/dequeued/memory': 1,
+	 'scheduler/enqueued': 1,
+	 'scheduler/enqueued/memory': 1,
+	 'start_time': datetime.datetime(2013, 3, 26, 17, 59, 13, 743327)}
+2013-03-26 13:59:14-0400 [mf] INFO: Spider closed (finished)
+Maxwells-MacBook-Pro:mf copy maxwellfoxman$ 
