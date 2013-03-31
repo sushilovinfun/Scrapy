@@ -6,7 +6,7 @@ from scrapy_sample.items import ScrapySampleItem
 class ScrapyOrgSpider(BaseSpider):
 	name = "scrapy"
 	allowed_domains = ["4chan.org"]
-	start_urls = ["http://boards.4chan.org/v/1"]
+	start_urls = ["http://boards.4chan.org/asp/"]
 
 	def parse(self, response):
 		hxs = HtmlXPathSelector(response)
@@ -15,11 +15,11 @@ class ScrapyOrgSpider(BaseSpider):
 		if not not next_page:
 			yield Request(next_page[0], self.parse)
 
-		posts = hxs.select("/html/body/form[2]")
+		posts = hxs.select("/html/body/form[2]/div")
 		items = []
 		for post in posts:
 			item = ScrapySampleItem()
-			item["post"] = post.select("//text()").extract()
+			item["post"] = post.select("/html/body/form[2]/div/div/div/div/p/text()").extract()
 			item["response"] = post.select("/html/body/form[2]/div/div/text()").extract()
 			items.append(item)
 		for item in items:
