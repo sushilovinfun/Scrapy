@@ -1,0 +1,161 @@
+Last login: Sun Mar 31 13:51:46 on ttys001
+Maxwells-MacBook-Pro:~ maxwellfoxman$ cd /Users/maxwellfoxman/Scrapy/wikilongcrawl/wikilongcrawl; clear; pwd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/Users/maxwellfoxman/Scrapy/wikilongcrawl/wikilongcrawl
+Maxwells-MacBook-Pro:wikilongcrawl maxwellfoxman$ scrapy crawl wiki
+2013-03-31 14:00:22-0400 [scrapy] INFO: Scrapy 0.16.4 started (bot: wikilongcrawl)
+2013-03-31 14:00:22-0400 [scrapy] DEBUG: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2013-03-31 14:00:22-0400 [scrapy] DEBUG: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, RedirectMiddleware, CookiesMiddleware, HttpCompressionMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2013-03-31 14:00:22-0400 [scrapy] DEBUG: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2013-03-31 14:00:22-0400 [scrapy] DEBUG: Enabled item pipelines: 
+2013-03-31 14:00:22-0400 [wiki] INFO: Spider opened
+2013-03-31 14:00:22-0400 [wiki] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2013-03-31 14:00:22-0400 [scrapy] DEBUG: Telnet console listening on 0.0.0.0:6023
+2013-03-31 14:00:22-0400 [scrapy] DEBUG: Web service listening on 0.0.0.0:6080
+2013-03-31 14:00:22-0400 [wiki] DEBUG: Crawled (200) <GET http://en.wikipedia.org/wiki/Archive> (referer: None)
+/Library/Python/2.7/site-packages/Scrapy-0.16.4-py2.7.egg/scrapy/link.py:16: UserWarning: Do not instantiate Link objects with unicode urls. Assuming utf-8 encoding (which could be wrong)
+  warnings.warn("Do not instantiate Link objects with unicode urls. " \
+2013-03-31 14:00:22-0400 [wiki] DEBUG: Filtered offsite request to 'www.ica.org': <GET http://www.ica.org/>
+2013-03-31 14:00:22-0400 [wiki] DEBUG: Filtered offsite request to 'www.archiveshub.ac.uk': <GET http://www.archiveshub.ac.uk/>
+2013-03-31 14:00:22-0400 [wiki] DEBUG: Filtered offsite request to 'www.interpares.org': <GET http://www.interpares.org/>
+2013-03-31 14:00:22-0400 [wiki] DEBUG: Filtered offsite request to 'www.nationalarchives.gov.uk': <GET http://www.nationalarchives.gov.uk/a2a>
+2013-03-31 14:00:22-0400 [wiki] DEBUG: Filtered offsite request to 'www.archivesmadeeasy.org': <GET http://www.archivesmadeeasy.org/>
+2013-03-31 14:00:22-0400 [wiki] DEBUG: Filtered offsite request to 'www.businessrecords.com': <GET http://www.businessrecords.com/doc.asp?page=21&subpage=87&subsubpage=46>
+2013-03-31 14:00:22-0400 [wiki] DEBUG: Filtered offsite request to 'www.aim25.ac.uk': <GET http://www.aim25.ac.uk/>
+2013-03-31 14:00:22-0400 [wiki] DEBUG: Filtered offsite request to 'www.cartoons.ac.uk': <GET http://www.cartoons.ac.uk/>
+2013-03-31 14:00:22-0400 [wiki] DEBUG: Filtered offsite request to 'daln.osu.edu': <GET http://daln.osu.edu/>
+2013-03-31 14:00:22-0400 [wiki] DEBUG: Filtered offsite request to 'www.lacasadisangiorgio.it': <GET http://www.lacasadisangiorgio.it/>
+2013-03-31 14:00:22-0400 [wiki] DEBUG: Filtered offsite request to 'uiuc.libguides.com': <GET http://uiuc.libguides.com/aecontent.php?pid=27055>
+2013-03-31 14:00:22-0400 [wiki] DEBUG: Crawled (200) <GET http://en.wikipedia.org/wiki/International_Council_on_Archives> (referer: http://en.wikipedia.org/wiki/Archive)
+2013-03-31 14:00:22-0400 [wiki] DEBUG: Crawled (200) <GET http://en.wikipedia.org/wiki/Manuscript_processing> (referer: http://en.wikipedia.org/wiki/Archive)
+2013-03-31 14:00:22-0400 [wiki] DEBUG: Crawled (200) <GET http://en.wikipedia.org/wiki/Archivist> (referer: http://en.wikipedia.org/wiki/Archive)
+2013-03-31 14:00:22-0400 [wiki] DEBUG: Crawled (200) <GET http://en.wikipedia.org/wiki/Web_archiving> (referer: http://en.wikipedia.org/wiki/Archive)
+2013-03-31 14:00:22-0400 [wiki] DEBUG: Crawled (200) <GET http://en.wikipedia.org/wiki/Internet_Archive> (referer: http://en.wikipedia.org/wiki/Archive)
+2013-03-31 14:00:22-0400 [wiki] DEBUG: Crawled (200) <GET http://en.wikipedia.org/wiki/Preservation_(library_and_archival_science)> (referer: http://en.wikipedia.org/wiki/Archive)
+2013-03-31 14:00:22-0400 [wiki] DEBUG: Crawled (200) <GET http://en.wikipedia.org/wiki/M25_motorway> (referer: http://en.wikipedia.org/wiki/Archive)
+2013-03-31 14:00:22-0400 [wiki] DEBUG: Crawled (200) <GET http://en.wikipedia.org/wiki/Information_repository> (referer: http://en.wikipedia.org/wiki/Archive)
+2013-03-31 14:00:22-0400 [wiki] DEBUG: Crawled (200) <GET http://en.wikipedia.org/wiki/Database> (referer: http://en.wikipedia.org/wiki/Archive)
+2013-03-31 14:00:22-0400 [wiki] DEBUG: Crawled (200) <GET http://en.wikipedia.org/wiki/Historical_document> (referer: http://en.wikipedia.org/wiki/Archive)
+2013-03-31 14:00:22-0400 [wiki] DEBUG: Crawled (200) <GET http://en.wikipedia.org/wiki/Greenstone_(software)> (referer: http://en.wikipedia.org/wiki/Archive)
+2013-03-31 14:00:23-0400 [wiki] DEBUG: Crawled (200) <GET http://en.wikipedia.org/wiki/Discovered_text_(archaeology)> (referer: http://en.wikipedia.org/wiki/Archive)
+2013-03-31 14:00:23-0400 [wiki] DEBUG: Crawled (200) <GET http://en.wikipedia.org/wiki/Data_proliferation> (referer: http://en.wikipedia.org/wiki/Archive)
+2013-03-31 14:00:23-0400 [wiki] DEBUG: Crawled (200) <GET http://en.wikipedia.org/wiki/BS_5454> (referer: http://en.wikipedia.org/wiki/Archive)
+2013-03-31 14:00:23-0400 [wiki] DEBUG: Crawled (200) <GET http://en.wikipedia.org/wiki/Collection_(museum)> (referer: http://en.wikipedia.org/wiki/Archive)
+2013-03-31 14:00:23-0400 [wiki] DEBUG: Crawled (200) <GET http://en.wikipedia.org/wiki/Digital_preservation> (referer: http://en.wikipedia.org/wiki/Archive)
+2013-03-31 14:00:23-0400 [wiki] DEBUG: Crawled (200) <GET http://en.wikipedia.org/wiki/Computer_data_storage> (referer: http://en.wikipedia.org/wiki/Archive)
+2013-03-31 14:00:23-0400 [wiki] DEBUG: Crawled (200) <GET http://en.wikipedia.org/wiki/Archive_Fever> (referer: http://en.wikipedia.org/wiki/Archive)
+2013-03-31 14:00:23-0400 [wiki] DEBUG: Crawled (200) <GET http://en.wikipedia.org/wiki/Archival_science> (referer: http://en.wikipedia.org/wiki/Archive)
+2013-03-31 14:00:23-0400 [wiki] DEBUG: Crawled (200) <GET http://en.wikipedia.org/wiki/Archival_research> (referer: http://en.wikipedia.org/wiki/Archive)
+2013-03-31 14:00:23-0400 [wiki] DEBUG: Crawled (200) <GET http://en.wikipedia.org/wiki/Archival_informatics> (referer: http://en.wikipedia.org/wiki/Archive)
+2013-03-31 14:00:23-0400 [wiki] DEBUG: Crawled (200) <GET http://en.wikipedia.org/wiki/List_of_national_archives> (referer: http://en.wikipedia.org/wiki/Archive)
+2013-03-31 14:00:23-0400 [wiki] DEBUG: Crawled (200) <GET http://en.wikipedia.org/wiki/Jacques_Derrida> (referer: http://en.wikipedia.org/wiki/Archive)
+2013-03-31 14:00:23-0400 [wiki] DEBUG: Crawled (200) <GET http://en.wikipedia.org/wiki/List_of_archives> (referer: http://en.wikipedia.org/wiki/Archive)
+2013-03-31 14:00:23-0400 [wiki] INFO: Closing spider (finished)
+2013-03-31 14:00:23-0400 [wiki] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 7263,
+	 'downloader/request_count': 25,
+	 'downloader/request_method_count/GET': 25,
+	 'downloader/response_bytes': 594258,
+	 'downloader/response_count': 25,
+	 'downloader/response_status_count/200': 25,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2013, 3, 31, 18, 0, 23, 249261),
+	 'log_count/DEBUG': 42,
+	 'log_count/INFO': 4,
+	 'request_depth_max': 1,
+	 'response_received_count': 25,
+	 'scheduler/dequeued': 25,
+	 'scheduler/dequeued/memory': 25,
+	 'scheduler/enqueued': 25,
+	 'scheduler/enqueued/memory': 25,
+	 'start_time': datetime.datetime(2013, 3, 31, 18, 0, 22, 693711)}
+2013-03-31 14:00:23-0400 [wiki] INFO: Spider closed (finished)
+Maxwells-MacBook-Pro:wikilongcrawl maxwellfoxman$ scrapy crawl wiki
+2013-03-31 14:01:28-0400 [scrapy] INFO: Scrapy 0.16.4 started (bot: wikilongcrawl)
+2013-03-31 14:01:28-0400 [scrapy] DEBUG: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2013-03-31 14:01:29-0400 [scrapy] DEBUG: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, RedirectMiddleware, CookiesMiddleware, HttpCompressionMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2013-03-31 14:01:29-0400 [scrapy] DEBUG: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2013-03-31 14:01:29-0400 [scrapy] DEBUG: Enabled item pipelines: 
+2013-03-31 14:01:29-0400 [wiki] INFO: Spider opened
+2013-03-31 14:01:29-0400 [wiki] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2013-03-31 14:01:29-0400 [scrapy] DEBUG: Telnet console listening on 0.0.0.0:6023
+2013-03-31 14:01:29-0400 [scrapy] DEBUG: Web service listening on 0.0.0.0:6080
+2013-03-31 14:01:29-0400 [wiki] DEBUG: Crawled (200) <GET http://en.wikipedia.org/wiki/Archive> (referer: None)
+/Library/Python/2.7/site-packages/Scrapy-0.16.4-py2.7.egg/scrapy/link.py:16: UserWarning: Do not instantiate Link objects with unicode urls. Assuming utf-8 encoding (which could be wrong)
+  warnings.warn("Do not instantiate Link objects with unicode urls. " \
+2013-03-31 14:01:29-0400 [wiki] DEBUG: Filtered offsite request to 'www.ica.org': <GET http://www.ica.org/>
+2013-03-31 14:01:29-0400 [wiki] DEBUG: Filtered offsite request to 'www.archiveshub.ac.uk': <GET http://www.archiveshub.ac.uk/>
+2013-03-31 14:01:29-0400 [wiki] DEBUG: Filtered offsite request to 'www.interpares.org': <GET http://www.interpares.org/>
+2013-03-31 14:01:29-0400 [wiki] DEBUG: Filtered offsite request to 'www.nationalarchives.gov.uk': <GET http://www.nationalarchives.gov.uk/a2a>
+2013-03-31 14:01:29-0400 [wiki] DEBUG: Filtered offsite request to 'www.archivesmadeeasy.org': <GET http://www.archivesmadeeasy.org/>
+2013-03-31 14:01:29-0400 [wiki] DEBUG: Filtered offsite request to 'www.businessrecords.com': <GET http://www.businessrecords.com/doc.asp?page=21&subpage=87&subsubpage=46>
+2013-03-31 14:01:29-0400 [wiki] DEBUG: Filtered offsite request to 'www.aim25.ac.uk': <GET http://www.aim25.ac.uk/>
+2013-03-31 14:01:29-0400 [wiki] DEBUG: Filtered offsite request to 'www.cartoons.ac.uk': <GET http://www.cartoons.ac.uk/>
+2013-03-31 14:01:29-0400 [wiki] DEBUG: Filtered offsite request to 'daln.osu.edu': <GET http://daln.osu.edu/>
+2013-03-31 14:01:29-0400 [wiki] DEBUG: Filtered offsite request to 'www.lacasadisangiorgio.it': <GET http://www.lacasadisangiorgio.it/>
+2013-03-31 14:01:29-0400 [wiki] DEBUG: Filtered offsite request to 'uiuc.libguides.com': <GET http://uiuc.libguides.com/aecontent.php?pid=27055>
+2013-03-31 14:01:29-0400 [wiki] DEBUG: Crawled (200) <GET http://en.wikipedia.org/wiki/International_Council_on_Archives> (referer: http://en.wikipedia.org/wiki/Archive)
+2013-03-31 14:01:29-0400 [wiki] DEBUG: Crawled (200) <GET http://en.wikipedia.org/wiki/Manuscript_processing> (referer: http://en.wikipedia.org/wiki/Archive)
+2013-03-31 14:01:29-0400 [wiki] DEBUG: Crawled (200) <GET http://en.wikipedia.org/wiki/Archivist> (referer: http://en.wikipedia.org/wiki/Archive)
+2013-03-31 14:01:29-0400 [wiki] DEBUG: Crawled (200) <GET http://en.wikipedia.org/wiki/Web_archiving> (referer: http://en.wikipedia.org/wiki/Archive)
+2013-03-31 14:01:29-0400 [wiki] DEBUG: Crawled (200) <GET http://en.wikipedia.org/wiki/Internet_Archive> (referer: http://en.wikipedia.org/wiki/Archive)
+2013-03-31 14:01:29-0400 [wiki] DEBUG: Crawled (200) <GET http://en.wikipedia.org/wiki/M25_motorway> (referer: http://en.wikipedia.org/wiki/Archive)
+2013-03-31 14:01:29-0400 [wiki] DEBUG: Crawled (200) <GET http://en.wikipedia.org/wiki/Preservation_(library_and_archival_science)> (referer: http://en.wikipedia.org/wiki/Archive)
+2013-03-31 14:01:29-0400 [wiki] DEBUG: Crawled (200) <GET http://en.wikipedia.org/wiki/Database> (referer: http://en.wikipedia.org/wiki/Archive)
+2013-03-31 14:01:29-0400 [wiki] DEBUG: Crawled (200) <GET http://en.wikipedia.org/wiki/Information_repository> (referer: http://en.wikipedia.org/wiki/Archive)
+2013-03-31 14:01:29-0400 [wiki] DEBUG: Crawled (200) <GET http://en.wikipedia.org/wiki/Greenstone_(software)> (referer: http://en.wikipedia.org/wiki/Archive)
+2013-03-31 14:01:29-0400 [wiki] DEBUG: Crawled (200) <GET http://en.wikipedia.org/wiki/Discovered_text_(archaeology)> (referer: http://en.wikipedia.org/wiki/Archive)
+2013-03-31 14:01:29-0400 [wiki] DEBUG: Crawled (200) <GET http://en.wikipedia.org/wiki/Historical_document> (referer: http://en.wikipedia.org/wiki/Archive)
+2013-03-31 14:01:29-0400 [wiki] DEBUG: Crawled (200) <GET http://en.wikipedia.org/wiki/Data_proliferation> (referer: http://en.wikipedia.org/wiki/Archive)
+2013-03-31 14:01:29-0400 [wiki] DEBUG: Crawled (200) <GET http://en.wikipedia.org/wiki/BS_5454> (referer: http://en.wikipedia.org/wiki/Archive)
+2013-03-31 14:01:29-0400 [wiki] DEBUG: Crawled (200) <GET http://en.wikipedia.org/wiki/Digital_preservation> (referer: http://en.wikipedia.org/wiki/Archive)
+2013-03-31 14:01:29-0400 [wiki] DEBUG: Crawled (200) <GET http://en.wikipedia.org/wiki/Archive_Fever> (referer: http://en.wikipedia.org/wiki/Archive)
+2013-03-31 14:01:29-0400 [wiki] DEBUG: Crawled (200) <GET http://en.wikipedia.org/wiki/Collection_(museum)> (referer: http://en.wikipedia.org/wiki/Archive)
+2013-03-31 14:01:29-0400 [wiki] DEBUG: Crawled (200) <GET http://en.wikipedia.org/wiki/Computer_data_storage> (referer: http://en.wikipedia.org/wiki/Archive)
+2013-03-31 14:01:29-0400 [wiki] DEBUG: Crawled (200) <GET http://en.wikipedia.org/wiki/Archival_science> (referer: http://en.wikipedia.org/wiki/Archive)
+2013-03-31 14:01:29-0400 [wiki] DEBUG: Crawled (200) <GET http://en.wikipedia.org/wiki/Archival_informatics> (referer: http://en.wikipedia.org/wiki/Archive)
+2013-03-31 14:01:29-0400 [wiki] DEBUG: Crawled (200) <GET http://en.wikipedia.org/wiki/List_of_national_archives> (referer: http://en.wikipedia.org/wiki/Archive)
+2013-03-31 14:01:29-0400 [wiki] DEBUG: Crawled (200) <GET http://en.wikipedia.org/wiki/Archival_research> (referer: http://en.wikipedia.org/wiki/Archive)
+2013-03-31 14:01:29-0400 [wiki] DEBUG: Crawled (200) <GET http://en.wikipedia.org/wiki/List_of_archives> (referer: http://en.wikipedia.org/wiki/Archive)
+2013-03-31 14:01:29-0400 [wiki] DEBUG: Crawled (200) <GET http://en.wikipedia.org/wiki/Jacques_Derrida> (referer: http://en.wikipedia.org/wiki/Archive)
+2013-03-31 14:01:29-0400 [wiki] INFO: Closing spider (finished)
+2013-03-31 14:01:29-0400 [wiki] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 7263,
+	 'downloader/request_count': 25,
+	 'downloader/request_method_count/GET': 25,
+	 'downloader/response_bytes': 594258,
+	 'downloader/response_count': 25,
+	 'downloader/response_status_count/200': 25,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2013, 3, 31, 18, 1, 29, 602775),
+	 'log_count/DEBUG': 42,
+	 'log_count/INFO': 4,
+	 'request_depth_max': 1,
+	 'response_received_count': 25,
+	 'scheduler/dequeued': 25,
+	 'scheduler/dequeued/memory': 25,
+	 'scheduler/enqueued': 25,
+	 'scheduler/enqueued/memory': 25,
+	 'start_time': datetime.datetime(2013, 3, 31, 18, 1, 29, 8825)}
+2013-03-31 14:01:29-0400 [wiki] INFO: Spider closed (finished)
+Maxwells-MacBook-Pro:wikilongcrawl maxwellfoxman$ 
