@@ -11,13 +11,7 @@ class MySpider(CrawlSpider):
     allowed_domains = ["4chan.org"]
     start_urls = ["http://boards.4chan.org/asp/"]
 
-    r rules = (
-# extract and follow the forum's page links
-            Rule(SgmlLinkExtractor(restrict_xpaths="//div[@class='next']/form/input")),
-# extract the topic links and scrape data from them
-            Rule(SgmlLinkExtractor(restrict_xpaths="/html/body"), 
-            callback='parse_items'),
-            )
+    rules = (Rule(SgmlLinkExtractor(allow=('.\d+')), callback="parse_items", follow=True), )
 
     def parse_items(self, response):
         hxs = HtmlXPathSelector(response)
