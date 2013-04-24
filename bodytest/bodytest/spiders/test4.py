@@ -3,7 +3,7 @@ from scrapy.selector import HtmlXPathSelector
 from bodytest.items import BodytestItem
 
 class MySpider(BaseSpider):
-    name = "bodytest"
+    name = "bodytest4"
     allowed_domains = []
     start_urls = ["file://localhost/Users/maxwellfoxman/Downloads/viewtopic.php.html"]
 
@@ -20,7 +20,7 @@ class MySpider(BaseSpider):
         #But this scrape is not quite working. It is posting 
         #the entire body of the page and not just the specific loop.
         #I am not sure why at all
-        post_body = x.select("//div[@class='postbody']").extract()
+        post_body = x.select("//div[@class='postbody']/node()").extract()
         # go through list of posters and remove any duplicates
         posters_export = [op]
         for p in posters:
@@ -33,11 +33,10 @@ class MySpider(BaseSpider):
             topic['topic_title'] = title
             topic['thread_author'] = op
             topic['post_author'] = pe
-            topics.append(topic)
-
-        for pb in post_body:
-            topic = BodytestItem()
-            topic['post_body'] = pb
+            for pb in topic['post_author']:
+                item = BodytestItem()
+                item['post_body'] = post_body
+                topics.append(item)
             topics.append(topic)
 
         return topics

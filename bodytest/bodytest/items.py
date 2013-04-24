@@ -6,6 +6,9 @@
 from scrapy.item import Item, Field
 
 class BodytestItem(Item):
-	body = Field() # define the fields for your item here like:
-	# name = Field()
+	topic_url = Field() # define the fields for your item here like:
+	topic_title = Field()
+	thread_author = Field()
+	post_author = Field()
+	post_body = Field()# name = Field()
 	pass
