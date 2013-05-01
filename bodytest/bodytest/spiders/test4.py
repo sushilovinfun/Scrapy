@@ -22,7 +22,7 @@ class MySpider(BaseSpider):
         #I am not sure why at all
         post_body = x.select("//div[@class='postbody']/node()").extract()
         # go through list of posters and remove any duplicates
-        posters_export = [op]
+        posters_export = []
         for p in posters:
                 posters_export.append(p)
         # create an item for each unique poster in the topic
@@ -33,10 +33,7 @@ class MySpider(BaseSpider):
             topic['topic_title'] = title
             topic['thread_author'] = op
             topic['post_author'] = pe
-            for pb in topic['post_author']:
-                item = BodytestItem()
-                item['post_body'] = post_body
-                topics.append(item)
+            topic['post_body'] = post_body
             topics.append(topic)
 
         return topics

@@ -5,22 +5,26 @@ from scrapy.http import Request
 from bodytest.items import BodytestItem
 
 class MySpider(CrawlSpider):
-    name = "bodytest5"
-    allowed_domains = []
-    start_urls = ["http://genofond.org/viewtopic.php?f=17&t=6769&sid=700ac7fb1d771b090dc52852f0751fd1"]
+    name = "bodytest6"
+    allowed_domains = ["genofond.org"]
+    start_urls = ["http://genofond.org/viewforum.php?f=17"]
 
-    rules = (
-            Rule(SgmlLinkExtractor(restrict_xpaths="//div[@id='pagecontent']/table[29]/tr/td[4]/b/a[4]"), callback='parse_start_url', follow=True), )
+    rules = (# extract and follow the forum's page links
+            Rule(SgmlLinkExtractor(restrict_xpaths="//div[@id='pagecontent']/table[1]/tr/td[4]/b/a[4]")),
+            # extract the topic links and scrape data from them
+            Rule(SgmlLinkExtractor(restrict_xpaths="//div[@id='pagecontent']/table[2]/tr/td[3]/a"), callback='parse_topic'),
+            #give it a bit. Try to get rid of this and also try to get of the "True" figuring
+            Rule(SgmlLinkExtractor(restrict_xpaths="//div[@id='pagecontent']/table[29]/tr/td[4]/b/a[4]"), callback='parse_topic', follow=True), 
+            )
 
     #changed to parse_start_url to scrape the first page and onwards... UNSURE if it is necessary to do for final code
-    def parse_start_url(self, response):
+    def parse_topic(self, response):
         x = HtmlXPathSelector(response)
         # get the list of posters
         posters = x.select("//b[@class='postauthor']/text()").extract()
         # set the first in list of posters as topic author
         op = posters[0]
         # get the topic url and title
-        # Modify logic of the poster 
         url = response.url
         title = x.select("//div[@id='pageheader']/h2/a/text()").extract()
         #scrape topic body 
