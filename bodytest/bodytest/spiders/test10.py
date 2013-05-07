@@ -5,23 +5,21 @@ from scrapy.http import Request
 from bodytest.items import BodytestItem
 
 class MySpider(CrawlSpider):
-    name = "bodytest9"
+    name = "bodytest10"
     allowed_domains = ["genofond.org"]
     start_urls = ["http://genofond.org/viewforum.php?f=17"]
 
     rules = (# extract and follow the forum's page links
             Rule(SgmlLinkExtractor(restrict_xpaths="//div[@id='pagecontent']/table[1]/tr/td[4]/b/a[4]")),
             # extract the topic links and scrape data from them
-            Rule(SgmlLinkExtractor(restrict_xpaths="//div[@id='pagecontent']/table[2]/tr/td[3]/a"), callback='parse_topic'),
+            Rule(SgmlLinkExtractor(restrict_xpaths="//div[@id='pagecontent']/table[2]/tr/td[3]/a")),
+            Rule(SgmlLinkExtractor(allow='.&t=\d+'), callback='parse_topic', follow=True),
+            Rule(SgmlLinkExtractor(allow='.&t=\d+&start=\d+'), callback='parse_topic', follow=True),
             )
 
     #changed to parse_start_url to scrape the first page and onwards... UNSURE if it is necessary to do for final code
     def parse_topic(self, response):
         x = HtmlXPathSelector(response)
-
-        next_page = x.select("//div[@id='pagecontent']/table[29]/tbody/tr/td[4]/b/a[4]/@href").extract()
-        if not not next_page:
-            yield Request(next_page[0], self.parse)
         # get the list of posters
         posters = x.select("//b[@class='postauthor']/text()").extract()
         # set the first in list of posters as topic author
@@ -51,5 +49,5 @@ class MySpider(CrawlSpider):
             topic['post_author'] = posters[i]
             topic['post_body'] = pb
             topics.append(topic)
-        for topic in topics:
-            yield topic
+
+        return topics
