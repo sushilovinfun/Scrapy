@@ -7,12 +7,10 @@ from bodytest.items import BodytestItem
 class MySpider(CrawlSpider):
     name = "bodytest11"
     allowed_domains = ["genofond.org"]
-    start_urls = ["http://genofond.org/viewforum.php?f=17"]
+    start_urls = ["http://genofond.org/viewtopic.php?f=17&t=6570"]
 
-    rules = (# extract and follow the forum's page links
-            Rule(SgmlLinkExtractor(restrict_xpaths="//div[@id='pagecontent']/table[1]/tr/td[4]/b/a[4]")),
-            # extract the topic links and scrape data from them
-            Rule(SgmlLinkExtractor(restrict_xpaths="//div[@id='pagecontent']/table[2]/tr/td[3]/a"), callback='parse_topic', follow=True),
+    rules = (
+            Rule(SgmlLinkExtractor(restrict_xpaths="//div[@id='pagecontent']/table[1]/tbody/tr/td[4]/b/a"), callback='parse_topic'),
             )
 
     #changed to parse_start_url to scrape the first page and onwards... UNSURE if it is necessary to do for final code
