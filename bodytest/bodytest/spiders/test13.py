@@ -10,8 +10,9 @@ class MySpider(CrawlSpider):
     start_urls = ["http://genofond.org/viewforum.php?f=17"]
 
     rules = (
+            Rule(SgmlLinkExtractor(restrict_xpaths="//div[@id='pagecontent']/table[1]/tr/td[4]/b/a"), follow=True),
             # extract and follow the forum's page links
-            Rule(SgmlLinkExtractor(restrict_xpaths="//div[@id='pagecontent']/table[2]/tr/td[3]"), callback='parse_topic'),
+            Rule(SgmlLinkExtractor(restrict_xpaths="//div[@id='pagecontent']/table[2]/tr/td[3]"), callback='parse_topic', follow=True),
             Rule(SgmlLinkExtractor(restrict_xpaths="//div[@id='pagecontent']/table[29]/tr/td/b/a"), callback='parse_topic', follow=True),
             )
 
