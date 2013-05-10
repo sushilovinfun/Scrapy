@@ -4,6 +4,8 @@ from scrapy.selector import HtmlXPathSelector
 from scrapy.http import Request
 from bodytest.items import BodytestItem
 
+#Manual scrape of science section
+
 class MySpider(CrawlSpider):
     name = "bodytest14"
     allowed_domains = ["genofond.org"]

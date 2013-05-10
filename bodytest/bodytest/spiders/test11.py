@@ -4,6 +4,8 @@ from scrapy.selector import HtmlXPathSelector
 from scrapy.http import Request
 from bodytest.items import BodytestItem
 
+#Here I was working on identifying correct XPaths. This was the correct one for the multiple pages of a thread.
+
 class MySpider(CrawlSpider):
     name = "bodytest11"
     allowed_domains = ["genofond.org"]

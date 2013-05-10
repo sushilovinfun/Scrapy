@@ -2,6 +2,9 @@ from scrapy.spider import BaseSpider
 from scrapy.selector import HtmlXPathSelector
 from bodytest.items import BodytestItem
 
+#A COMPLICATED VERSION USING A WHILE FUNCTION FOR THE SCRAPING OF MULTIPLE PAGES
+#was an experiment in trying to locate the postbody. Final XPath was - "//div[@class='postbody']"
+
 class MySpider(BaseSpider):
     name = "bodytest3"
     allowed_domains = ["genofond.org"]

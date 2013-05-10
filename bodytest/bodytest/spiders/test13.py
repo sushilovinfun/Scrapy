@@ -4,6 +4,8 @@ from scrapy.selector import HtmlXPathSelector
 from scrapy.http import Request
 from bodytest.items import BodytestItem
 
+#the three follow=True don't seem to work and just create a somewhat infinite loop
+
 class MySpider(CrawlSpider):
     name = "bodytest13"
     allowed_domains = ["genofond.org"]

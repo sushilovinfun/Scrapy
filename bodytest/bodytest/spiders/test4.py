@@ -2,6 +2,9 @@ from scrapy.spider import BaseSpider
 from scrapy.selector import HtmlXPathSelector
 from bodytest.items import BodytestItem
 
+#Here I tried the "node()" XPath. No luck.
+#was an experiment in trying to locate the postbody. Final XPath was - "//div[@class='postbody']"
+
 class MySpider(BaseSpider):
     name = "bodytest4"
     allowed_domains = []

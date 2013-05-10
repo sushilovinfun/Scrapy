@@ -4,6 +4,9 @@ from scrapy.selector import HtmlXPathSelector
 from scrapy.http import Request
 from bodytest.items import BodytestItem
 
+#Another attempt at the XPath. This will call up the last 4 pages and the first page of every page.
+#What is interesting about this is that it was actually following, of all things the links under each section link (look at the start_url to see what I mean)
+
 class MySpider(CrawlSpider):
     name = "bodytest8"
     allowed_domains = ["genofond.org"]

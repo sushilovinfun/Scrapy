@@ -4,6 +4,9 @@ from scrapy.selector import HtmlXPathSelector
 from scrapy.http import Request
 from bodytest.items import BodytestItem
 
+#This was an interesting scrape trying to use multiple regex, but it won't work because of the fact that multiple pages
+#Are generated from this, including doubles because of the notion of multiple pages.
+
 class MySpider(CrawlSpider):
     name = "bodytest10"
     allowed_domains = ["genofond.org"]

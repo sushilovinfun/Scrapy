@@ -2,6 +2,9 @@ from scrapy.spider import BaseSpider
 from scrapy.selector import HtmlXPathSelector
 from bodytest.items import BodytestItem
 
+#It should be noted for this test that I had to separate and create a new list for post_bodies to get it to work.
+#Also should be noted the importance of the post_body XPath.
+
 class MySpider(BaseSpider):
     name = "bodytest"
     allowed_domains = []

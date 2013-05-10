@@ -4,6 +4,10 @@ from scrapy.selector import HtmlXPathSelector
 from scrapy.http import Request
 from bodytest.items import BodytestItem
 
+#Manual scrape of Free Style. Was attempting to actually use a scrape of thread links
+#and then subsequent pages and just have the pages of the section as I thought it would be easier. 
+#It didn't quite work, but was promising
+
 class MySpider(CrawlSpider):
     name = "freestyle1"
     allowed_domains = ["genofond.org"]

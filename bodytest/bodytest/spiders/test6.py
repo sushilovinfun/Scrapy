@@ -4,6 +4,9 @@ from scrapy.selector import HtmlXPathSelector
 from scrapy.http import Request
 from bodytest.items import BodytestItem
 
+#Here I am trying to work on the XPaths, but haven't gotten the functional cooperating of lists. Worth trying to get together
+#The the XPaths here. Not sure what to do with it at this point.
+
 class MySpider(CrawlSpider):
     name = "bodytest6"
     allowed_domains = ["genofond.org"]

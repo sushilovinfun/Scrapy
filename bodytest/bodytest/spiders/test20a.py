@@ -4,6 +4,8 @@ from scrapy.selector import HtmlXPathSelector
 from scrapy.http import Request
 from bodytest.items import BodytestItem
 
+#Manual scrape of Freestyle Section
+
 class MySpider(CrawlSpider):
     name = "freestyle2"
     allowed_domains = ["genofond.org"]

@@ -4,6 +4,8 @@ from scrapy.selector import HtmlXPathSelector
 from scrapy.http import Request
 from bodytest.items import BodytestItem
 
+#Manual scrape of all announcements on the genofond page.
+
 class MySpider(CrawlSpider):
     name = "announcements"
     allowed_domains = ["genofond.org"]

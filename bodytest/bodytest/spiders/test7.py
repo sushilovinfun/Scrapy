@@ -4,6 +4,8 @@ from scrapy.selector import HtmlXPathSelector
 from scrapy.http import Request
 from bodytest.items import BodytestItem
 
+#Here is a local scrape of correct post_bodies, enumerating between the two lists of post bodies
+
 class MySpider(CrawlSpider):
     name = "bodytest7"
     allowed_domains = []

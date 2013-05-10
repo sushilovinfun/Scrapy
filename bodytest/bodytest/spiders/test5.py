@@ -4,6 +4,8 @@ from scrapy.selector import HtmlXPathSelector
 from scrapy.http import Request
 from bodytest.items import BodytestItem
 
+#Here I have the correct XPath, but I still have to make two lists.
+
 class MySpider(CrawlSpider):
     name = "bodytest5"
     allowed_domains = []
