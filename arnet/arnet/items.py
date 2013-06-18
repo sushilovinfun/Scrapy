@@ -11,7 +11,8 @@ class ArnetItem(Item):
 	Affiliation = Field()
 	Bio = Field()
 	Education = Field()
-	Conferences = Field() 
+	Conferences = Field()
+	Publications = Field()
 	#Consider adding papers afterward.
 
 	# name = Field()
